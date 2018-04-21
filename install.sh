@@ -197,7 +197,7 @@ clear
 echo ""
 echo "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
 echo ""
-echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP:81/ และกรอกข้อมูล 2 ด้านล่าง!"
+echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP:81/install และกรอกข้อมูล 2 ด้านล่าง!"
 echo "Database:"
 echo "- Database Host: localhost"
 echo "- Database Name: $DatabaseName"
