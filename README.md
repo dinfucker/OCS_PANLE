@@ -1,2 +1,3 @@
 # ocs-topup
 ON : Debian 7-8
+wget -O install.sh https://raw.githubusercontent.com/dinfucker/OCS_PANLE/master/install.sh && chmod +x install.sh && ./install.sh
