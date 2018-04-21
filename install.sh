@@ -69,7 +69,7 @@ flag=0
 clear
 echo "--------------- OCS PANELS INSTALLER FOR DEBIAN ---------------"
 
-echo "         DEVELOPED BY OCSPANEL.INFO / ( 097-026-7262 )                    "
+echo "                 DEVELOPED BY LIFESTYLE-VPN.COM                "
 echo ""
 echo ""
 echo "ยินดีต้อนรับสู่ Osc Panel Auto Script : กรุณายืนยันการตั้งค่าต่าง ๆ ดังนี้"
@@ -247,10 +247,10 @@ echo "
 [√] กำลังเริ่มติดตั้ง : Wallet..... [ OK !! ]
 ----------------------------------------------
  "
-sudo apt-get install curl
-sudo service apache2 restart
-sudo apt-get install php5-curl
-sudo service apache2 restart
+ apt-get install curl
+ service apache2 restart
+ apt-get install php5-curl
+ service apache2 restart
 
 sleep 4
 # info
