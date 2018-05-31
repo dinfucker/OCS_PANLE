@@ -197,7 +197,7 @@ clear
 echo ""
 echo "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
 echo ""
-echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP:81/install และกรอกข้อมูล 2 ด้านล่าง!"
+echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP/install และกรอกข้อมูล 2 ด้านล่าง!"
 echo "Database:"
 echo "- Database Host: localhost"
 echo "- Database Name: $DatabaseName"
@@ -256,7 +256,7 @@ sleep 4
 # info
 clear
 echo "================ การติดตั้งเสร็จสิ้น พร้อมใช้งาน ================" | tee -a log-install.txt
-echo "กรุณาเข้าสู่ระบบ OCS Panel ที่ http://$MYIP:81/" | tee -a log-install.txt
+echo "กรุณาเข้าสู่ระบบ OCS Panel ที่ http://$MYIP" | tee -a log-install.txt
 
 echo "" | tee -a log-install.txt
 #echo "บันทึกการติดตั้ง --> /root/log-install.txt" | tee -a log-install.txt
