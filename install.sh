@@ -1,20 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @jame10000lnw Sign out
-0
-0 0 dinfucker/OCS_PANLE
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-OCS_PANLE/install.sh
-179e514  on 31 May
-@jame10000lnw jame10000lnw Update install.sh
-     
-268 lines (208 sloc)  8.83 KB
 #!/bin/bash
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
 myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`;
