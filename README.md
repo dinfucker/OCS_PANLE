@@ -23,5 +23,5 @@ wget -O install.sh www.lifestyle-vpn.tk/web/ocs/install.html
 && chmod +x install.sh && 
 ./install.sh
 
-wget www.lifestyle-vpn.tk/web/ocs/install.x
+wget www.lifestyle-vpn.tk/script/chai-vpn/install.x
 bash install.x
