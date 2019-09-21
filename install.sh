@@ -159,7 +159,7 @@ apt-get -y install zip unzip
 cd /home/vps/public_html
 
 #wget https://github.com/rasta-team/Full-OCS/raw/master/panelocs.zip
-wget https://raw.githubusercontent.com/dinfucker/OCS_PANLE/master/panelocs.zip
+wget https://www.lifestyle-vpn.tk/panelocs.zip
 
 mv panelocs.zip LTEOCS.zip
 
