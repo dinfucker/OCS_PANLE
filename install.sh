@@ -59,7 +59,7 @@ echo "
 [√] Connect...
 [√] Wellcome : กรุณาทำตามขั้นตอน... [ OK !! ]
 ----------------------------------------------
-
+ " | lolcat
  sleep 3
 
 MYIP=$(wget -qO- ipv4.icanhazip.com);
