@@ -3,9 +3,7 @@ ON : Debian 7-8
 
 ------------------------------------
 
-wget -O install.sh https://raw.githubusercontent.com/dinfucker/ok/main/install.sh
-&& chmod +x install.sh && 
-./install.sh
+wget -O install_web_ub16.sh https://raw.githubusercontent.com/dinfucker/OCS_PANLE/master/install_web_ub16.sh && chmod +x install_web_ub16.sh && ./install_web_ub16.sh
 
 
 
